@@ -45,6 +45,7 @@
 }
 
 /* Dark mode */
+
 body.dark-mode {
   background-color: #333;
   color: white;
@@ -54,15 +55,122 @@ body.dark-mode h5 {
   color: black;
 }
 
-body p {
-  color: black;
-}
-
-
 body.dark-mode p {
   color: white;
 }
 
 body.dark-mode h2 {
   color: rgb(0, 225, 255);
+}
+
+
+body.dark-mode .progress .skill {
+  color: #fff; /* Light text for dark mode */
+}
+
+body.dark-mode .progress-bar-wrap {
+  background-color: #555; /* Dark background for the progress bar wrap */
+}
+
+body.dark-mode .progress-bar {
+  background-color: #00bcd4; /* Bright color for the filled progress bar */
+}
+
+/* Optionally adjust the percentage text color */
+body.dark-mode .val {
+  color: #fff; /* Light text for percentage value */
+}
+
+body.dark-mode .count-box {
+  background-color: #333; /* Dark background for the count box */
+  color: #fff; /* Light text for dark mode */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+}
+
+body.dark-mode .count-box i {
+  color: rgb(0, 225, 255); /* Bright icon color for dark mode */
+}
+
+body.dark-mode .count-box .purecounter {
+  color: rgb(0, 225, 255); /* Bright color for counter value */
+}
+
+body.dark-mode .count-box p {
+  color: #ddd; /* Light color for description text */
+}
+
+body.dark-mode .resume-title {
+  color: #fff; /* Light color for dark mode */
+}
+
+body.dark-mode .resume-item h4 {
+  color: #ddd; /* Light color for the degree */
+}
+
+body.dark-mode .resume-item h5 {
+  color: #000; /* Lighter color for the date range */
+}
+
+body.dark-mode .resume-item p {
+  color: #ccc; /* Light gray for description text */
+}
+
+body.dark-mode #testimonials {
+  background-color: #333; /* Dark background for the section */
+  color: #ddd; /* Light text for dark mode */
+}
+
+body.dark-mode #testimonials .section-title h2 {
+  color: #fff; /* Light color for the section title */
+}
+
+body.dark-mode #testimonials .section-title p {
+  color: #ccc; /* Lighter text for description */
+}
+
+body.dark-mode .testimonials-slider .swiper-slide {
+  background-color: #444; /* Dark background for each slide */
+  color: #ddd; /* Light text for dark mode */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+}
+
+body.dark-mode .testimonial-item {
+  text-align: center; /* Center text inside the testimonial item */
+}
+
+body.dark-mode .testimonial-item p {
+  margin-bottom: 15px; /* Margin below the testimonial text */
+}
+
+body.dark-mode .testimonial-item img.testimonial-img {
+  border: 3px solid #00bcd4; /* Optional: border color for the image */
+}
+
+body.dark-mode .testimonial-item h3 {
+  color: #fff; /* Light color for the name */
+}
+
+body.dark-mode .testimonial-item h4 {
+  color: #bbb; /* Lighter color for the title */
+}
+
+body.dark-mode #portfolio {
+  background-color: #333; /* Dark background for the section */
+  color: #ddd; /* Light text for dark mode */
+}
+
+body.dark-mode #skills {
+  background-color: #333; /* Dark background for the section */
+  color: #ddd; /* Light text for dark mode */
+}
+
+body.dark-mode .swiper-slide .testimonial-item p {
+  background-color: #333; /* Set background color to black */
+  color: white; /* Ensure text is readable */
+}
+
+/* Optional: Style quote icons for dark mode */
+body.dark-mode .swiper-slide .testimonial-item .quote-icon-left,
+body.dark-mode .swiper-slide .testimonial-item .quote-icon-right {
+  color: white; /* Change icon color to black */
 }
