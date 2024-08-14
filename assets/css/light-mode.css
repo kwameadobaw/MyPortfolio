@@ -1,0 +1,153 @@
+/* Light Mode Styles */
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  a {
+    color: #149ddd;
+  }
+  
+  a:hover {
+    color: #37b3ed;
+  }
+  
+  .nav-menu a,
+  .nav-menu a:focus {
+    color: #333;
+  }
+  
+  .nav-menu a:hover,
+  .nav-menu .active,
+  .nav-menu .active:focus,
+  .nav-menu li:hover>a {
+    color: #149ddd;
+  }
+  
+  .back-to-top {
+    background-color: #149ddd;
+  }
+  
+  .back-to-top:hover {
+    background-color: #2eafec;
+  }
+  
+  #header {
+    background-color: #fff;
+  }
+  
+  #header .profile img {
+    border: 8px solid #fff;
+  }
+  
+  #hero {
+    background-image: url("../img/Site/Homepage-light.jpg");
+  }
+  
+  #hero:before {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  #hero h1 {
+    color: #333;
+  }
+  
+  #hero p {
+    color: #333;
+  }
+  
+  #hero p span {
+    border-bottom: 3px solid #149ddd;
+  }
+  
+  .section-title h2 {
+    color: #333;
+  }
+  
+  .section-title h2::after {
+    background-color: #149ddd;
+  }
+  
+  .skills .progress-bar {
+    background-color: #149ddd;
+  }
+  
+  .portfolio .portfolio-item {
+    background-color: #fff;
+  }
+  
+  .portfolio .portfolio-item:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .portfolio .portfolio-links a {
+    background-color: #149ddd;
+  }
+  
+  .portfolio .portfolio-links a:hover {
+    background-color: #2eafec;
+  }
+  
+  .testimonials .testimonial-item {
+    background-color: #fff;
+  }
+  
+  .testimonials .testimonial-item h3 {
+    color: #333;
+  }
+  
+  .testimonials .testimonial-item h4 {
+    color: #333;
+  }
+  
+  .testimonials .testimonial-item p {
+    color: #333;
+  }
+  
+  .contact .php-email-form {
+    background-color: #fff;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    background-color: #149ddd;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+    background-color: #2eafec;
+  }
+  
+  #footer {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #footer .copyright {
+    color: #333;
+  }
+  
+  #footer .credits {
+    color: #333;
+  }
+  
+  .breadcrumbs {
+    background-color: #f9f9f9;
+  }
+  
+  .breadcrumbs h2 {
+    color: #333;
+  }
+  
+  .breadcrumbs ol {
+    background-color: #f9f9f9;
+  }
+  
+  .breadcrumbs ol li+li::before {
+    color: #333;
+  }
