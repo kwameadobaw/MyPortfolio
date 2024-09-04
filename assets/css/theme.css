@@ -174,3 +174,22 @@ body.dark-mode .swiper-slide .testimonial-item .quote-icon-left,
 body.dark-mode .swiper-slide .testimonial-item .quote-icon-right {
   color: white; /* Change icon color to black */
 }
+
+body.dark-mode .contact-form-container {
+  background-color: #444;
+}
+
+body.dark-mode .contact-form-container label {
+  color: white;
+}
+
+body.dark-mode .contact-form .form-group textarea, body.dark-mode .contact-form .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #444; /* Black background */
+  color: #fff; /* White text */
+  resize: none;
+}
